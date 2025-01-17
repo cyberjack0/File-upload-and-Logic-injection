@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Meriç Kariyer - Giriş</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <img src="{{ url_for('static', filename='meriç_logo.png') }}" alt="Meriç Kariyer Logo" class="logo">
+            <h1>Meriç Kariyer</h1>
+            <form method="post" class="login-form">
+                <input type="text" name="username" placeholder="Kullanıcı Adı"><br>
+                <input type="password" name="password" placeholder="Şifre"><br>
+                <input type="submit" value="Giriş Yap">
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+

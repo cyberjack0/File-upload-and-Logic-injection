@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Meriç Kariyer - Havelsan</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <img src="{{ url_for('static', filename='havelsan_logo.png') }}" alt="Havelsan Logo" class="logo">
+            <h1>Havelsan</h1>
+            <h2>Siber Güvenlik Uzmanı İş İlanı</h2>
+            <p>Havelsan'da geleceğin güvenlik sistemlerini geliştirecek bir ekip üyesi arıyoruz!</p>
+            <a href="{{ url_for('upload_file') }}" class="button">Başvuru Yap</a>
+        </div>
+    </body>
+</html>

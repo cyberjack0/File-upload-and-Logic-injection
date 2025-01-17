@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Meriç Kariyer - SOC Analyst</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <img src="{{ url_for('static', filename='turkcell_logo.png') }}" alt="Turkcell Logo" class="logo">
+        <h1>Meriç Kariyer</h1>
+        <h2>Turkcell - SOC Analyst İş İlanı</h2>
+        <p>
+            Turkcell olarak, büyüyen siber güvenlik ekibimize bir "SOC Analyst" arıyoruz. Bu rol, siber güvenlik olaylarının analiz edilmesi, 
+            çözülmesi ve şirketin güvenlik altyapısının iyileştirilmesi için kritik bir öneme sahiptir. Ekibimize katılarak, Türkiye'nin lider 
+            telekomünikasyon firmasında kariyerinizi bir üst seviyeye taşıyabilirsiniz.
+        </p>
+        <h3>Sorumluluklar:</h3>
+        <ul>
+            <li>SIEM araçlarını kullanarak log ve olay analizi yapmak</li>
+            <li>Potansiyel tehditlerin tespiti ve raporlanması</li>
+            <li>Olay müdahale süreçlerini yönetmek</li>
+            <li>Siber tehdit istihbaratına dayalı güvenlik iyileştirmeleri önermek</li>
+        </ul>
+        <h3>Gerekli Nitelikler:</h3>
+        <ul>
+            <li>Bilgi Güvenliği veya ilgili bir alanda lisans derecesi</li>
+            <li>SIEM araçları (Splunk, QRadar vb.) konusunda deneyim</li>
+            <li>Analitik düşünme ve problem çözme yetenekleri</li>
+            <li>En az 3 yıllık SOC Analyst deneyimi</li>
+        </ul>
+        <h3>Başvuru Süreci:</h3>
+        <p>
+            Başvurunuzu yapmak için CV'nizi aşağıdaki bağlantıyı kullanarak yükleyebilirsiniz.
+        </p>
+        <a href="{{ url_for('upload_file') }}" class="button">Başvuru Yap</a>
+    </body>
+</html>
+
+

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Meriç Kariyer - İş İlanları</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <img src="{{ url_for('static', filename='meriç_logo.png') }}" alt="Meriç Kariyer Logo" class="logo">
+            <h1>Meriç Kariyer</h1>
+            <h2>İş İlanları</h2>
+            <ul class="job-list">
+                <li><a href="{{ url_for('job_page', job_id=1) }}"><img src="{{ url_for('static', filename='turkcell_logo.png') }}" alt="Turkcell Logo"> Turkcell</a></li>
+                <li><a href="{{ url_for('job_page', job_id=2) }}"><img src="{{ url_for('static', filename='vodafone_logo.png') }}" alt="Vodafone Logo"> Vodafone</a></li>
+                <li><a href="{{ url_for('job_page', job_id=3) }}"><img src="{{ url_for('static', filename='havelsan_logo.png') }}" alt="Havelsan Logo"> Havelsan</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
+
